@@ -24,16 +24,18 @@ const Header = ()=>{
                 </ul>
 
                 <div>
-                    <FontAwesomeIcon icon={["fab", "instagram"]} />
-                    <FontAwesomeIcon icon={["fab", "twitter"]} />
+                    <a href="https://www.instagram.com/thecrispyduchess/">
+                        <FontAwesomeIcon icon={["fab", "instagram"]} />
+                    </a>
+                    <a href="https://twitter.com/kaitlyn_wickson">
+                        <FontAwesomeIcon icon={["fab", "twitter"]} />
+                    </a>
                 </div>
-
             </nav>
 
             <h1>The Crispy Duchess</h1>
             <h2>The Art of Baking</h2>
         </>
-    
     )
 }
 
